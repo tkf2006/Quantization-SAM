@@ -1,0 +1,61 @@
+save_path: ./output/cifar100/projected_qsam/log_qsampreresnet20_cifar100_bs128_e200_lr0.01000_cliplr0.01_LIQ_wn_qsam_w4.0a4.0_qfl1_optQR_QSAM_SGD_rho0.4_eta0.01_iwcFalse_iacTrue_ibTrue_lambda0.0001_target648_20260908_qr_saq_r8_seed2/
+suffix: 
+seed: 2
+gpu: 0
+print_frequency: 10
+dist_url: env://
+data_path: ./data
+dataset: cifar100
+n_threads: 4
+date: 20260908
+experiment_id: qr_saq_r8_seed2
+use_dali_cpu: False
+batch_size: 128
+momentum: 0.9
+weight_decay: 0.0001
+lr: 0.01
+min_lr: 0.0
+n_epochs: 200
+step: [80, 120]
+lr_scheduler_type: multi_step
+opt_type: QR_QSAM_SGD
+warmup_n_epochs: 0
+label_smooth: 0
+no_decay_keys: 
+network: qsampreresnet20
+pretrained: ./checkpoints/pretrained/r20_w32a32.pth
+resume: None
+quantize_first_last: True
+quan_type: LIQ_wn_qsam
+clip_lr: 0.01
+qw: 4.0
+qa: 4.0
+rho: 0.4
+eta: 0.01
+include_wclip: False
+include_aclip: True
+include_bn: True
+grad_clip: 5.0
+projection_rank: 8
+projection_seed: 12345
+hidden_size: 64
+train_ratio: 0.5
+val_num: 10000
+c_lr: 0.001
+c_n_epochs: 90
+c_weight_decay: 0.0005
+c_pretrained: None
+c_resume: None
+loss_lambda: 0.0001
+entropy_coeff: 0.0005
+target_bops: 648
+share_clip: False
+bit_warmup_epochs: 0
+arch_bits: 
+bits_choice: [2.0, 3.0, 4.0, 5.0]
+wa_same_bit: True
+search_w_bit: False
+n_classes: 100
+world_size: 1
+distributed: False
+rank: 0
