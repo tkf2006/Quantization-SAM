@@ -1,0 +1,26 @@
+[
+  {
+    "method": "QSAM_SGD",
+    "seed": 1,
+    "epochs": 200,
+    "path": "records/saq_seed1"
+  },
+  {
+    "method": "QSAM_SGD",
+    "seed": 2,
+    "epochs": 200,
+    "path": "records/saq_seed2"
+  },
+  {
+    "method": "QSAM_SGD",
+    "seed": 3,
+    "epochs": 200,
+    "path": "records/saq_seed3"
+  },
+  {
+    "method": "SGD",
+    "seed": 1,
+    "epochs": 200,
+    "path": "records/qat_sgd_seed1"
+  }
+]
