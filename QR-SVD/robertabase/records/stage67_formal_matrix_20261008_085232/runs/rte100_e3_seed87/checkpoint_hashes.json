@@ -1,0 +1,6 @@
+{
+  "best_adapter": {
+    "sha256": "4c41dc616362677264d99780ace19c96f9be0528efbb0486f99790bd569db30a",
+    "filename": "adapter_model.safetensors"
+  }
+}
