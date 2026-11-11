@@ -1,0 +1,34 @@
+[
+  {
+    "stage": "e2_e5_rte20_20260921_032917",
+    "completed_runs": 10
+  },
+  {
+    "stage": "e3_e4_rte20_20260923_032434",
+    "completed_runs": 10
+  },
+  {
+    "stage": "stage1_diag_rte20_seed42_20260924_043329",
+    "completed_runs": 2
+  },
+  {
+    "stage": "stage1_diag_rte20_seed42_20260927_121223",
+    "completed_runs": 2
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "completed_runs": 58
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "completed_runs": 48
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "completed_runs": 36
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "completed_runs": 150
+  }
+]
