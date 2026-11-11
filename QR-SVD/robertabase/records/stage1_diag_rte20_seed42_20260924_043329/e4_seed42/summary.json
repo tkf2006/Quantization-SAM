@@ -1,0 +1,9 @@
+{
+  "experiment": "roberta_rte_20pct_random_subspace",
+  "method": "random_subspace",
+  "best_epoch": 3,
+  "best_score": 0.5415162454873647,
+  "epochs_completed": 8,
+  "global_steps": 256,
+  "elapsed_seconds": 78.48615765571594
+}

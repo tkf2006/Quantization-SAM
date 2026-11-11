@@ -1,0 +1,13 @@
+{
+  "run_dir": "D:\\SJTU\\Study\\MODEL_OPTIM\\Ariticles\\量化+SAM\\QR-SVD\\QLoRA+QR-SVD\\outputs\\stage1_diag_rte20_seed42_20260924_043329\\e5_seed42",
+  "logged_steps": 25,
+  "target_layers": 24,
+  "configured_rank_mean_energy": 0.04409986408427358,
+  "primary_mean_projected_gradient_norm": 0.006425394071188135,
+  "random_to_qr_norm_ratio_mean": {
+    "random_seed_12345": 2.46846099373197,
+    "random_seed_2026": 2.7267499711631467,
+    "random_seed_3407": 2.4239763000170838
+  },
+  "figure": "D:\\SJTU\\Study\\MODEL_OPTIM\\Ariticles\\量化+SAM\\QR-SVD\\QLoRA+QR-SVD\\outputs\\stage1_diag_rte20_seed42_20260924_043329\\e5_seed42\\diagnostic_figures\\qr_svd_diagnostics.png"
+}
