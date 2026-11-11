@@ -1,0 +1,150 @@
+{
+  "cache_path": "/root/tkf/QLoRA+QR-SVD/artifacts/cache/qr_svd/FacebookAI-roberta-base_rev-e2da8e2f811d1448a5b465c236feacd80ffbac7b_nf4_dq-1_rank-8_query-value.pt",
+  "cache_created": false,
+  "layers": [
+    {
+      "name": "roberta.encoder.layer.0.attention.self.query",
+      "rank": 8,
+      "residual_norm": 7.364992618560791,
+      "captured_energy_ratio": 0.04770248755812645
+    },
+    {
+      "name": "roberta.encoder.layer.0.attention.self.value",
+      "rank": 8,
+      "residual_norm": 2.738997459411621,
+      "captured_energy_ratio": 0.0448424406349659
+    },
+    {
+      "name": "roberta.encoder.layer.1.attention.self.query",
+      "rank": 8,
+      "residual_norm": 5.428240776062012,
+      "captured_energy_ratio": 0.04757681488990784
+    },
+    {
+      "name": "roberta.encoder.layer.1.attention.self.value",
+      "rank": 8,
+      "residual_norm": 3.0343434810638428,
+      "captured_energy_ratio": 0.04577362909913063
+    },
+    {
+      "name": "roberta.encoder.layer.10.attention.self.query",
+      "rank": 8,
+      "residual_norm": 4.765355110168457,
+      "captured_energy_ratio": 0.04089832678437233
+    },
+    {
+      "name": "roberta.encoder.layer.10.attention.self.value",
+      "rank": 8,
+      "residual_norm": 2.999126434326172,
+      "captured_energy_ratio": 0.04281579330563545
+    },
+    {
+      "name": "roberta.encoder.layer.11.attention.self.query",
+      "rank": 8,
+      "residual_norm": 4.8767852783203125,
+      "captured_energy_ratio": 0.03990383446216583
+    },
+    {
+      "name": "roberta.encoder.layer.11.attention.self.value",
+      "rank": 8,
+      "residual_norm": 3.382214069366455,
+      "captured_energy_ratio": 0.04251936450600624
+    },
+    {
+      "name": "roberta.encoder.layer.2.attention.self.query",
+      "rank": 8,
+      "residual_norm": 4.940418243408203,
+      "captured_energy_ratio": 0.042276617139577866
+    },
+    {
+      "name": "roberta.encoder.layer.2.attention.self.value",
+      "rank": 8,
+      "residual_norm": 3.3757364749908447,
+      "captured_energy_ratio": 0.04643207788467407
+    },
+    {
+      "name": "roberta.encoder.layer.3.attention.self.query",
+      "rank": 8,
+      "residual_norm": 5.179112434387207,
+      "captured_energy_ratio": 0.04531127214431763
+    },
+    {
+      "name": "roberta.encoder.layer.3.attention.self.value",
+      "rank": 8,
+      "residual_norm": 3.4167301654815674,
+      "captured_energy_ratio": 0.04252607747912407
+    },
+    {
+      "name": "roberta.encoder.layer.4.attention.self.query",
+      "rank": 8,
+      "residual_norm": 5.254611015319824,
+      "captured_energy_ratio": 0.04343046993017197
+    },
+    {
+      "name": "roberta.encoder.layer.4.attention.self.value",
+      "rank": 8,
+      "residual_norm": 3.5453670024871826,
+      "captured_energy_ratio": 0.044721636921167374
+    },
+    {
+      "name": "roberta.encoder.layer.5.attention.self.query",
+      "rank": 8,
+      "residual_norm": 4.977473735809326,
+      "captured_energy_ratio": 0.0432857871055603
+    },
+    {
+      "name": "roberta.encoder.layer.5.attention.self.value",
+      "rank": 8,
+      "residual_norm": 3.760678291320801,
+      "captured_energy_ratio": 0.04371189326047897
+    },
+    {
+      "name": "roberta.encoder.layer.6.attention.self.query",
+      "rank": 8,
+      "residual_norm": 5.0085320472717285,
+      "captured_energy_ratio": 0.04265457019209862
+    },
+    {
+      "name": "roberta.encoder.layer.6.attention.self.value",
+      "rank": 8,
+      "residual_norm": 3.663969039916992,
+      "captured_energy_ratio": 0.04331814870238304
+    },
+    {
+      "name": "roberta.encoder.layer.7.attention.self.query",
+      "rank": 8,
+      "residual_norm": 5.381572246551514,
+      "captured_energy_ratio": 0.04496898874640465
+    },
+    {
+      "name": "roberta.encoder.layer.7.attention.self.value",
+      "rank": 8,
+      "residual_norm": 3.13774037361145,
+      "captured_energy_ratio": 0.04836477339267731
+    },
+    {
+      "name": "roberta.encoder.layer.8.attention.self.query",
+      "rank": 8,
+      "residual_norm": 4.864679336547852,
+      "captured_energy_ratio": 0.04086832329630852
+    },
+    {
+      "name": "roberta.encoder.layer.8.attention.self.value",
+      "rank": 8,
+      "residual_norm": 3.2289071083068848,
+      "captured_energy_ratio": 0.0468793623149395
+    },
+    {
+      "name": "roberta.encoder.layer.9.attention.self.query",
+      "rank": 8,
+      "residual_norm": 4.748227119445801,
+      "captured_energy_ratio": 0.04084720462560654
+    },
+    {
+      "name": "roberta.encoder.layer.9.attention.self.value",
+      "rank": 8,
+      "residual_norm": 3.0288870334625244,
+      "captured_energy_ratio": 0.046766843646764755
+    }
+  ]
+}

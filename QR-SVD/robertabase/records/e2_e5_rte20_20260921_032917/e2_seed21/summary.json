@@ -1,0 +1,9 @@
+{
+  "experiment": "roberta_rte_20pct_qlora",
+  "method": "qlora",
+  "best_epoch": 7,
+  "best_score": 0.5776173285198556,
+  "epochs_completed": 12,
+  "global_steps": 384,
+  "elapsed_seconds": 41.08522915840149
+}

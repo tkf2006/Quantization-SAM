@@ -1,0 +1,9 @@
+{
+  "experiment": "roberta_rte_20pct_qr_svd",
+  "method": "qr_svd",
+  "best_epoch": 7,
+  "best_score": 0.5812274368231047,
+  "epochs_completed": 12,
+  "global_steps": 384,
+  "elapsed_seconds": 79.57319593429565
+}
