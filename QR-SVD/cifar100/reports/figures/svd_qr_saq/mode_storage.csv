@@ -1,0 +1,2 @@
+﻿quantized_layers,rank,factorized_U_V_elements,factorized_fp32_mib,dense_mode_elements,dense_fp32_mib,factorized_vs_dense_reduction_percent
+22,8,53112,0.202606201171875,2213248,8.44287109375,97.60026892603089

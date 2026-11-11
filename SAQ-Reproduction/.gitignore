@@ -1,0 +1,32 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+# Local datasets, weights and new training outputs
+/data/
+/datasets/
+/checkpoints/
+/weights/
+/runs/
+/output/
+/outputs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+events.out.tfevents.*
+wandb/
+*.pid
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+# Exported PDFs duplicate the maintained Markdown/PNG records
+/reports/figures/**/*.pdf
