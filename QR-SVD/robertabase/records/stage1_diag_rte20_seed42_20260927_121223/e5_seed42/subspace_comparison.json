@@ -1,0 +1,43 @@
+{
+  "type": "same_clean_batch_subspace_projection",
+  "comparison_subspaces": {
+    "random_seed_12345": {
+      "layers": 24,
+      "coordinates": 192,
+      "rank_per_layer": [
+        8
+      ],
+      "source": [
+        "random"
+      ]
+    },
+    "random_seed_2026": {
+      "layers": 24,
+      "coordinates": 192,
+      "rank_per_layer": [
+        8
+      ],
+      "source": [
+        "random"
+      ]
+    },
+    "random_seed_3407": {
+      "layers": 24,
+      "coordinates": 192,
+      "rank_per_layer": [
+        8
+      ],
+      "source": [
+        "random"
+      ]
+    }
+  },
+  "primary": "qr_svd",
+  "random_basis_seeds": [
+    12345,
+    2026,
+    3407
+  ],
+  "collection_interval_steps": 10,
+  "changes_training_hyperparameters": false
+}
