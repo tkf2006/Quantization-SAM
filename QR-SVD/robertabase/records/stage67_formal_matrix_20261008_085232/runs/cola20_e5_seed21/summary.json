@@ -1,0 +1,14 @@
+{
+  "experiment": "stage67_formal_qr_svd",
+  "method": "qr_svd",
+  "best_epoch": 10,
+  "best_score": 0.5002120583081916,
+  "epochs_completed": 15,
+  "global_steps": 1605,
+  "elapsed_seconds": 391.21825218200684,
+  "seconds_per_step": 0.24374968983302606,
+  "initial_memory_allocated_gib": 0.19373321533203125,
+  "initial_memory_reserved_gib": 0.2734375,
+  "peak_memory_allocated_gib": 0.4725303649902344,
+  "peak_memory_reserved_gib": 0.537109375
+}
