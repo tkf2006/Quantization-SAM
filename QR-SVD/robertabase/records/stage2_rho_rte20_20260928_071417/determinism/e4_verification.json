@@ -1,0 +1,14 @@
+{
+  "left": "/root/tkf/QLoRA+QR-SVD/outputs/stage2_rho_rte20_20260928_071417/determinism/e4_repeat_a",
+  "right": "/root/tkf/QLoRA+QR-SVD/outputs/stage2_rho_rte20_20260928_071417/determinism/e4_repeat_b",
+  "ignored_fields": [
+    "elapsed_seconds"
+  ],
+  "checks": {
+    "summary_without_wall_time": true,
+    "metrics_without_wall_time": true,
+    "best_adapter_sha256": true,
+    "last_adapter_sha256": true
+  },
+  "passed": true
+}
