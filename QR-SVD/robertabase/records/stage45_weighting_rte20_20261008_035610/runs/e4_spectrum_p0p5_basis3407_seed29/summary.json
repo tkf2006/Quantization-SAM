@@ -1,0 +1,9 @@
+{
+  "experiment": "stage45_roberta_rte_20pct_random_spectrum_weighted",
+  "method": "random_subspace",
+  "best_epoch": 11,
+  "best_score": 0.5612244897959183,
+  "epochs_completed": 16,
+  "global_steps": 400,
+  "elapsed_seconds": 103.4032473564148
+}
