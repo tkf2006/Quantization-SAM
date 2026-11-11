@@ -1,0 +1,10 @@
+{
+  "task": "rte",
+  "dataset_name": "nyu-mll/glue",
+  "dataset_revision": "bcdcba7",
+  "local_dataset_dir": "artifacts/datasets/glue_rte_bcdcba7",
+  "train_fraction": 0.2,
+  "train_examples": 497,
+  "validation_examples": 277,
+  "indices_path": "/root/tkf/QLoRA+QR-SVD/artifacts/data_indices/glue_rte_fraction_0.2_seed_100.json"
+}

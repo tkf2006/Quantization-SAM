@@ -1,0 +1,9 @@
+{
+  "experiment": "roberta_rte_20pct_lora_sam",
+  "method": "lora_sam",
+  "best_epoch": 6,
+  "best_score": 0.5992779783393501,
+  "epochs_completed": 11,
+  "global_steps": 352,
+  "elapsed_seconds": 64.7549262046814
+}
