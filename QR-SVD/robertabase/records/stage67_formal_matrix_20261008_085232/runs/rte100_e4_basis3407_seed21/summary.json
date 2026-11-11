@@ -1,0 +1,14 @@
+{
+  "experiment": "stage67_formal_random_subspace",
+  "method": "random_subspace",
+  "best_epoch": 10,
+  "best_score": 0.7509025270758123,
+  "epochs_completed": 15,
+  "global_steps": 2340,
+  "elapsed_seconds": 578.6519346237183,
+  "seconds_per_step": 0.24728715154859754,
+  "initial_memory_allocated_gib": 0.19373321533203125,
+  "initial_memory_reserved_gib": 0.2734375,
+  "peak_memory_allocated_gib": 1.8334903717041016,
+  "peak_memory_reserved_gib": 3.34375
+}
