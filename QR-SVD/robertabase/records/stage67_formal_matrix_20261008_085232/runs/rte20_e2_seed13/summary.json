@@ -1,0 +1,14 @@
+{
+  "experiment": "stage67_formal_qlora",
+  "method": "qlora",
+  "best_epoch": 6,
+  "best_score": 0.5595667870036101,
+  "epochs_completed": 11,
+  "global_steps": 352,
+  "elapsed_seconds": 48.08947801589966,
+  "seconds_per_step": 0.1366178352724422,
+  "initial_memory_allocated_gib": 0.19373321533203125,
+  "initial_memory_reserved_gib": 0.2734375,
+  "peak_memory_allocated_gib": 1.6279020309448242,
+  "peak_memory_reserved_gib": 4.466796875
+}
