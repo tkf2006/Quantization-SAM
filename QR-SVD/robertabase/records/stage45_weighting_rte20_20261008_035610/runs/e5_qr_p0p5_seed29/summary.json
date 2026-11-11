@@ -1,0 +1,9 @@
+{
+  "experiment": "stage45_roberta_rte_20pct_qr_svd_weighted",
+  "method": "qr_svd",
+  "best_epoch": 8,
+  "best_score": 0.5510204081632653,
+  "epochs_completed": 13,
+  "global_steps": 325,
+  "elapsed_seconds": 85.78209257125854
+}

@@ -1,0 +1,45 @@
+{
+  "type": "same_clean_batch_subspace_projection",
+  "comparison_subspaces": {
+    "random_seed_12345": {
+      "layers": 24,
+      "coordinates": 192,
+      "rank_per_layer": [
+        8
+      ],
+      "source": [
+        "random_qr_spectrum"
+      ]
+    },
+    "random_seed_2026": {
+      "layers": 24,
+      "coordinates": 192,
+      "rank_per_layer": [
+        8
+      ],
+      "source": [
+        "random_qr_spectrum"
+      ]
+    },
+    "random_seed_3407": {
+      "layers": 24,
+      "coordinates": 192,
+      "rank_per_layer": [
+        8
+      ],
+      "source": [
+        "random_qr_spectrum"
+      ]
+    }
+  },
+  "primary": "qr_svd",
+  "random_basis_seeds": [
+    12345,
+    2026,
+    3407
+  ],
+  "random_spectrum_source": "qr_svd_quantization_residual",
+  "singular_value_exponent": 0.5,
+  "collection_interval_steps": 10,
+  "changes_training_hyperparameters": false
+}
