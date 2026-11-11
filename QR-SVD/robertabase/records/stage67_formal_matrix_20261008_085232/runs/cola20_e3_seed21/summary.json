@@ -1,0 +1,14 @@
+{
+  "experiment": "stage67_formal_lora_sam",
+  "method": "lora_sam",
+  "best_epoch": 14,
+  "best_score": 0.5027162727680555,
+  "epochs_completed": 19,
+  "global_steps": 2033,
+  "elapsed_seconds": 448.05382442474365,
+  "seconds_per_step": 0.22039046946617985,
+  "initial_memory_allocated_gib": 0.19373321533203125,
+  "initial_memory_reserved_gib": 0.2734375,
+  "peak_memory_allocated_gib": 0.4710197448730469,
+  "peak_memory_reserved_gib": 0.5390625
+}
