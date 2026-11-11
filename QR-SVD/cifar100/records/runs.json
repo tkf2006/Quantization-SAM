@@ -1,0 +1,62 @@
+[
+  {
+    "method": "QR_QSAM_SGD",
+    "seed": 1,
+    "epochs": 200,
+    "path": "records/projected_qsam/qr_saq_r8_seed1"
+  },
+  {
+    "method": "QR_QSAM_SGD",
+    "seed": 2,
+    "epochs": 200,
+    "path": "records/projected_qsam/qr_saq_r8_seed2"
+  },
+  {
+    "method": "QR_QSAM_SGD",
+    "seed": 3,
+    "epochs": 200,
+    "path": "records/projected_qsam/qr_saq_r8_seed3"
+  },
+  {
+    "method": "RS_QSAM_SGD",
+    "seed": 1,
+    "epochs": 200,
+    "path": "records/projected_qsam/rs_saq_r8_seed1"
+  },
+  {
+    "method": "RS_QSAM_SGD",
+    "seed": 2,
+    "epochs": 200,
+    "path": "records/projected_qsam/rs_saq_r8_seed2"
+  },
+  {
+    "method": "RS_QSAM_SGD",
+    "seed": 3,
+    "epochs": 200,
+    "path": "records/projected_qsam/rs_saq_r8_seed3"
+  },
+  {
+    "method": "SVD_RS_QSAM_SGD",
+    "seed": 1,
+    "epochs": 200,
+    "path": "records/svd_random/svd_rs_saq_r8_seed1"
+  },
+  {
+    "method": "SVD_RS_QSAM_SGD",
+    "seed": 2,
+    "epochs": 200,
+    "path": "records/svd_random/svd_rs_saq_r8_seed2"
+  },
+  {
+    "method": "SVD_RS_QSAM_SGD",
+    "seed": 3,
+    "epochs": 200,
+    "path": "records/svd_random/svd_rs_saq_r8_seed3"
+  },
+  {
+    "method": "SVD_QR_QSAM_SGD",
+    "seed": 1,
+    "epochs": 200,
+    "path": "records/svd_residual/svd_qr_saq_r8_seed1"
+  }
+]

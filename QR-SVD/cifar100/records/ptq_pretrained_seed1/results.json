@@ -1,0 +1,193 @@
+{
+  "method": "PTQ-MSE (raw-weight uniform)",
+  "source_checkpoint": "/root/tkf/SAQ/checkpoints/pretrained/r20_w32a32.pth",
+  "dataset": "CIFAR-100",
+  "network": "preresnet20 converted to static PTQ",
+  "quantizer": "per-tensor symmetric weight / unsigned activation uniform quantization",
+  "bits": {
+    "first": "W8A32",
+    "body_and_downsample": "W4A4",
+    "fc": "W8A8"
+  },
+  "bops_mb": 674.643968,
+  "calibration": {
+    "source": "CIFAR-100 training set only",
+    "preprocessing": "ToTensor + CIFAR-100 Normalize; no random augmentation",
+    "images": 1024,
+    "seed": 1,
+    "method": "per-layer MSE clip search",
+    "threshold_candidates": 81,
+    "threshold_min_ratio": 0.2,
+    "observer_samples_per_batch": 32768,
+    "seconds": 2.7543002888560295
+  },
+  "fp32_test": {
+    "top1": 67.5,
+    "top5": 90.78,
+    "loss": 1.2340842876434326,
+    "examples": 10000
+  },
+  "ptq_test": {
+    "top1": 41.07,
+    "top5": 72.38,
+    "loss": 2.553311527633667,
+    "examples": 10000
+  },
+  "top1_drop": 26.43,
+  "test_seconds": 0.6306709051132202,
+  "layer_calibration": {
+    "conv": {
+      "weight_bits": 8,
+      "weight_clip_value": 3.429866075515747,
+      "activation_bits": 32,
+      "activation_clip_value": 1.0
+    },
+    "layer1.0.conv1": {
+      "weight_bits": 4,
+      "weight_clip_value": 0.8902083039283752,
+      "activation_bits": 4,
+      "activation_clip_value": 6.419152736663818,
+      "observer_values": 262144
+    },
+    "layer1.0.conv2": {
+      "weight_bits": 4,
+      "weight_clip_value": 1.0067857503890991,
+      "activation_bits": 4,
+      "activation_clip_value": 3.141094207763672,
+      "observer_values": 262144
+    },
+    "layer1.1.conv1": {
+      "weight_bits": 4,
+      "weight_clip_value": 0.634305477142334,
+      "activation_bits": 4,
+      "activation_clip_value": 3.4210729598999023,
+      "observer_values": 262144
+    },
+    "layer1.1.conv2": {
+      "weight_bits": 4,
+      "weight_clip_value": 0.6872815489768982,
+      "activation_bits": 4,
+      "activation_clip_value": 2.2082278728485107,
+      "observer_values": 262144
+    },
+    "layer1.2.conv1": {
+      "weight_bits": 4,
+      "weight_clip_value": 0.7036120891571045,
+      "activation_bits": 4,
+      "activation_clip_value": 3.673470973968506,
+      "observer_values": 262144
+    },
+    "layer1.2.conv2": {
+      "weight_bits": 4,
+      "weight_clip_value": 0.6294002532958984,
+      "activation_bits": 4,
+      "activation_clip_value": 2.629331588745117,
+      "observer_values": 262144
+    },
+    "layer2.0.downsample": {
+      "weight_bits": 4,
+      "weight_clip_value": 1.1531481742858887,
+      "activation_bits": 4,
+      "activation_clip_value": 4.39739990234375,
+      "observer_values": 262144
+    },
+    "layer2.0.conv1": {
+      "weight_bits": 4,
+      "weight_clip_value": 0.6901035904884338,
+      "activation_bits": 4,
+      "activation_clip_value": 4.39739990234375,
+      "observer_values": 262144
+    },
+    "layer2.0.conv2": {
+      "weight_bits": 4,
+      "weight_clip_value": 0.5785921216011047,
+      "activation_bits": 4,
+      "activation_clip_value": 2.250244617462158,
+      "observer_values": 262144
+    },
+    "layer2.1.conv1": {
+      "weight_bits": 4,
+      "weight_clip_value": 0.4757446050643921,
+      "activation_bits": 4,
+      "activation_clip_value": 2.206307888031006,
+      "observer_values": 262144
+    },
+    "layer2.1.conv2": {
+      "weight_bits": 4,
+      "weight_clip_value": 0.42229369282722473,
+      "activation_bits": 4,
+      "activation_clip_value": 2.359100103378296,
+      "observer_values": 262144
+    },
+    "layer2.2.conv1": {
+      "weight_bits": 4,
+      "weight_clip_value": 0.47691863775253296,
+      "activation_bits": 4,
+      "activation_clip_value": 2.2483468055725098,
+      "observer_values": 262144
+    },
+    "layer2.2.conv2": {
+      "weight_bits": 4,
+      "weight_clip_value": 0.3825134336948395,
+      "activation_bits": 4,
+      "activation_clip_value": 2.6033670902252197,
+      "observer_values": 262144
+    },
+    "layer3.0.downsample": {
+      "weight_bits": 4,
+      "weight_clip_value": 0.5558602213859558,
+      "activation_bits": 4,
+      "activation_clip_value": 2.5159924030303955,
+      "observer_values": 262144
+    },
+    "layer3.0.conv1": {
+      "weight_bits": 4,
+      "weight_clip_value": 0.4417571723461151,
+      "activation_bits": 4,
+      "activation_clip_value": 2.5159924030303955,
+      "observer_values": 262144
+    },
+    "layer3.0.conv2": {
+      "weight_bits": 4,
+      "weight_clip_value": 0.3878853917121887,
+      "activation_bits": 4,
+      "activation_clip_value": 1.7177956104278564,
+      "observer_values": 262144
+    },
+    "layer3.1.conv1": {
+      "weight_bits": 4,
+      "weight_clip_value": 0.3798733651638031,
+      "activation_bits": 4,
+      "activation_clip_value": 2.4318277835845947,
+      "observer_values": 262144
+    },
+    "layer3.1.conv2": {
+      "weight_bits": 4,
+      "weight_clip_value": 0.34651413559913635,
+      "activation_bits": 4,
+      "activation_clip_value": 2.167591094970703,
+      "observer_values": 262144
+    },
+    "layer3.2.conv1": {
+      "weight_bits": 4,
+      "weight_clip_value": 0.36930206418037415,
+      "activation_bits": 4,
+      "activation_clip_value": 2.210937738418579,
+      "observer_values": 262144
+    },
+    "layer3.2.conv2": {
+      "weight_bits": 4,
+      "weight_clip_value": 0.3231116235256195,
+      "activation_bits": 4,
+      "activation_clip_value": 2.705887794494629,
+      "observer_values": 262144
+    },
+    "fc": {
+      "weight_bits": 8,
+      "weight_clip_value": 2.0716392993927,
+      "activation_bits": 8,
+      "activation_clip_value": 6.3594160079956055,
+      "observer_values": 65536
+    }
+  }
+}
