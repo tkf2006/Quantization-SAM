@@ -1,0 +1,2530 @@
+[
+  {
+    "stage": "e2_e5_rte20_20260921_032917",
+    "path": "records/e2_e5_rte20_20260921_032917/e2_seed100",
+    "method": "qlora",
+    "seed": 100,
+    "best_score": 0.6064981949458483,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "e2_e5_rte20_20260921_032917",
+    "path": "records/e2_e5_rte20_20260921_032917/e2_seed13",
+    "method": "qlora",
+    "seed": 13,
+    "best_score": 0.5776173285198556,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "e2_e5_rte20_20260921_032917",
+    "path": "records/e2_e5_rte20_20260921_032917/e2_seed21",
+    "method": "qlora",
+    "seed": 21,
+    "best_score": 0.5776173285198556,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "e2_e5_rte20_20260921_032917",
+    "path": "records/e2_e5_rte20_20260921_032917/e2_seed42",
+    "method": "qlora",
+    "seed": 42,
+    "best_score": 0.5487364620938628,
+    "epochs_completed": 8
+  },
+  {
+    "stage": "e2_e5_rte20_20260921_032917",
+    "path": "records/e2_e5_rte20_20260921_032917/e2_seed87",
+    "method": "qlora",
+    "seed": 87,
+    "best_score": 0.6245487364620939,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "e2_e5_rte20_20260921_032917",
+    "path": "records/e2_e5_rte20_20260921_032917/e5_seed100",
+    "method": "qr_svd",
+    "seed": 100,
+    "best_score": 0.5956678700361011,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "e2_e5_rte20_20260921_032917",
+    "path": "records/e2_e5_rte20_20260921_032917/e5_seed13",
+    "method": "qr_svd",
+    "seed": 13,
+    "best_score": 0.5848375451263538,
+    "epochs_completed": 18
+  },
+  {
+    "stage": "e2_e5_rte20_20260921_032917",
+    "path": "records/e2_e5_rte20_20260921_032917/e5_seed21",
+    "method": "qr_svd",
+    "seed": 21,
+    "best_score": 0.5812274368231047,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "e2_e5_rte20_20260921_032917",
+    "path": "records/e2_e5_rte20_20260921_032917/e5_seed42",
+    "method": "qr_svd",
+    "seed": 42,
+    "best_score": 0.5631768953068592,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "e2_e5_rte20_20260921_032917",
+    "path": "records/e2_e5_rte20_20260921_032917/e5_seed87",
+    "method": "qr_svd",
+    "seed": 87,
+    "best_score": 0.6425992779783394,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "e3_e4_rte20_20260923_032434",
+    "path": "records/e3_e4_rte20_20260923_032434/e3_seed100",
+    "method": "lora_sam",
+    "seed": 100,
+    "best_score": 0.5992779783393501,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "e3_e4_rte20_20260923_032434",
+    "path": "records/e3_e4_rte20_20260923_032434/e3_seed13",
+    "method": "lora_sam",
+    "seed": 13,
+    "best_score": 0.555956678700361,
+    "epochs_completed": 9
+  },
+  {
+    "stage": "e3_e4_rte20_20260923_032434",
+    "path": "records/e3_e4_rte20_20260923_032434/e3_seed21",
+    "method": "lora_sam",
+    "seed": 21,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 7
+  },
+  {
+    "stage": "e3_e4_rte20_20260923_032434",
+    "path": "records/e3_e4_rte20_20260923_032434/e3_seed42",
+    "method": "lora_sam",
+    "seed": 42,
+    "best_score": 0.5306859205776173,
+    "epochs_completed": 9
+  },
+  {
+    "stage": "e3_e4_rte20_20260923_032434",
+    "path": "records/e3_e4_rte20_20260923_032434/e3_seed87",
+    "method": "lora_sam",
+    "seed": 87,
+    "best_score": 0.6101083032490975,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "e3_e4_rte20_20260923_032434",
+    "path": "records/e3_e4_rte20_20260923_032434/e4_seed100",
+    "method": "random_subspace",
+    "seed": 100,
+    "best_score": 0.5956678700361011,
+    "epochs_completed": 9
+  },
+  {
+    "stage": "e3_e4_rte20_20260923_032434",
+    "path": "records/e3_e4_rte20_20260923_032434/e4_seed13",
+    "method": "random_subspace",
+    "seed": 13,
+    "best_score": 0.5776173285198556,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "e3_e4_rte20_20260923_032434",
+    "path": "records/e3_e4_rte20_20260923_032434/e4_seed21",
+    "method": "random_subspace",
+    "seed": 21,
+    "best_score": 0.592057761732852,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "e3_e4_rte20_20260923_032434",
+    "path": "records/e3_e4_rte20_20260923_032434/e4_seed42",
+    "method": "random_subspace",
+    "seed": 42,
+    "best_score": 0.5631768953068592,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "e3_e4_rte20_20260923_032434",
+    "path": "records/e3_e4_rte20_20260923_032434/e4_seed87",
+    "method": "random_subspace",
+    "seed": 87,
+    "best_score": 0.628158844765343,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage1_diag_rte20_seed42_20260924_043329",
+    "path": "records/stage1_diag_rte20_seed42_20260924_043329/e4_seed42",
+    "method": "random_subspace",
+    "seed": 42,
+    "best_score": 0.5415162454873647,
+    "epochs_completed": 8
+  },
+  {
+    "stage": "stage1_diag_rte20_seed42_20260924_043329",
+    "path": "records/stage1_diag_rte20_seed42_20260924_043329/e5_seed42",
+    "method": "qr_svd",
+    "seed": 42,
+    "best_score": 0.5415162454873647,
+    "epochs_completed": 8
+  },
+  {
+    "stage": "stage1_diag_rte20_seed42_20260927_121223",
+    "path": "records/stage1_diag_rte20_seed42_20260927_121223/e4_seed42",
+    "method": "random_subspace",
+    "seed": 42,
+    "best_score": 0.5631768953068592,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage1_diag_rte20_seed42_20260927_121223",
+    "path": "records/stage1_diag_rte20_seed42_20260927_121223/e5_seed42",
+    "method": "qr_svd",
+    "seed": 42,
+    "best_score": 0.555956678700361,
+    "epochs_completed": 8
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/determinism/e4_repeat_a",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.5,
+    "epochs_completed": 3
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/determinism/e4_repeat_b",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.5,
+    "epochs_completed": 3
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/determinism/e5_repeat_a",
+    "method": "qr_svd",
+    "seed": 17,
+    "best_score": 0.5,
+    "epochs_completed": 3
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/determinism/e5_repeat_b",
+    "method": "qr_svd",
+    "seed": 17,
+    "best_score": 0.5,
+    "epochs_completed": 3
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e3_rho0p0025_seed17",
+    "method": "lora_sam",
+    "seed": 17,
+    "best_score": 0.6122448979591837,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e3_rho0p0025_seed29",
+    "method": "lora_sam",
+    "seed": 29,
+    "best_score": 0.5306122448979592,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e3_rho0p0025_seed43",
+    "method": "lora_sam",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e3_rho0p005_seed17",
+    "method": "lora_sam",
+    "seed": 17,
+    "best_score": 0.5714285714285714,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e3_rho0p005_seed29",
+    "method": "lora_sam",
+    "seed": 29,
+    "best_score": 0.5408163265306123,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e3_rho0p005_seed43",
+    "method": "lora_sam",
+    "seed": 43,
+    "best_score": 0.5102040816326531,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e3_rho0p01_seed17",
+    "method": "lora_sam",
+    "seed": 17,
+    "best_score": 0.5612244897959183,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e3_rho0p01_seed29",
+    "method": "lora_sam",
+    "seed": 29,
+    "best_score": 0.5408163265306123,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e3_rho0p01_seed43",
+    "method": "lora_sam",
+    "seed": 43,
+    "best_score": 0.5306122448979592,
+    "epochs_completed": 8
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e3_rho0p02_seed17",
+    "method": "lora_sam",
+    "seed": 17,
+    "best_score": 0.5714285714285714,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e3_rho0p02_seed29",
+    "method": "lora_sam",
+    "seed": 29,
+    "best_score": 0.5816326530612245,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e3_rho0p02_seed43",
+    "method": "lora_sam",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p025_rank8_basis12345_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6326530612244898,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p025_rank8_basis12345_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5306122448979592,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p025_rank8_basis12345_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p025_rank8_basis2026_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6530612244897959,
+    "epochs_completed": 18
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p025_rank8_basis2026_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p025_rank8_basis2026_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p025_rank8_basis3407_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p025_rank8_basis3407_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5612244897959183,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p025_rank8_basis3407_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5102040816326531,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p05_rank8_basis12345_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p05_rank8_basis12345_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p05_rank8_basis12345_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p05_rank8_basis2026_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 19
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p05_rank8_basis2026_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p05_rank8_basis2026_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p05_rank8_basis3407_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p05_rank8_basis3407_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p05_rank8_basis3407_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p10_rank8_basis12345_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p10_rank8_basis12345_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5306122448979592,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p10_rank8_basis12345_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p10_rank8_basis2026_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6326530612244898,
+    "epochs_completed": 19
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p10_rank8_basis2026_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p10_rank8_basis2026_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p10_rank8_basis3407_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 19
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p10_rank8_basis3407_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5714285714285714,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e4_rho0p10_rank8_basis3407_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e5_rho0p025_rank8_seed17",
+    "method": "qr_svd",
+    "seed": 17,
+    "best_score": 0.6530612244897959,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e5_rho0p025_rank8_seed29",
+    "method": "qr_svd",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e5_rho0p025_rank8_seed43",
+    "method": "qr_svd",
+    "seed": 43,
+    "best_score": 0.5102040816326531,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e5_rho0p05_rank8_seed17",
+    "method": "qr_svd",
+    "seed": 17,
+    "best_score": 0.6632653061224489,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e5_rho0p05_rank8_seed29",
+    "method": "qr_svd",
+    "seed": 29,
+    "best_score": 0.5612244897959183,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e5_rho0p05_rank8_seed43",
+    "method": "qr_svd",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e5_rho0p0625_rank8_seed17",
+    "method": "qr_svd",
+    "seed": 17,
+    "best_score": 0.673469387755102,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e5_rho0p0625_rank8_seed29",
+    "method": "qr_svd",
+    "seed": 29,
+    "best_score": 0.5306122448979592,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e5_rho0p0625_rank8_seed43",
+    "method": "qr_svd",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e5_rho0p10_rank8_seed17",
+    "method": "qr_svd",
+    "seed": 17,
+    "best_score": 0.673469387755102,
+    "epochs_completed": 18
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e5_rho0p10_rank8_seed29",
+    "method": "qr_svd",
+    "seed": 29,
+    "best_score": 0.5102040816326531,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e5_rho0p10_rank8_seed43",
+    "method": "qr_svd",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e5_rho0p125_rank8_seed17",
+    "method": "qr_svd",
+    "seed": 17,
+    "best_score": 0.6530612244897959,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e5_rho0p125_rank8_seed29",
+    "method": "qr_svd",
+    "seed": 29,
+    "best_score": 0.5204081632653061,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage2_rho_rte20_20260928_071417",
+    "path": "records/stage2_rho_rte20_20260928_071417/runs/e5_rho0p125_rank8_seed43",
+    "method": "qr_svd",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank16_basis12345_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank16_basis12345_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank16_basis12345_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank16_basis2026_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6326530612244898,
+    "epochs_completed": 19
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank16_basis2026_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5204081632653061,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank16_basis2026_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5102040816326531,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank16_basis3407_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank16_basis3407_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank16_basis3407_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank32_basis12345_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6326530612244898,
+    "epochs_completed": 19
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank32_basis12345_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5204081632653061,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank32_basis12345_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5306122448979592,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank32_basis2026_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank32_basis2026_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5306122448979592,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank32_basis2026_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5102040816326531,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank32_basis3407_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.5714285714285714,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank32_basis3407_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5408163265306123,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank32_basis3407_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank4_basis12345_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank4_basis12345_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5306122448979592,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank4_basis12345_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank4_basis2026_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank4_basis2026_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank4_basis2026_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5102040816326531,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank4_basis3407_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6224489795918368,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank4_basis3407_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5612244897959183,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank4_basis3407_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank8_basis12345_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank8_basis12345_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank8_basis12345_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank8_basis2026_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 19
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank8_basis2026_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank8_basis2026_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank8_basis3407_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank8_basis3407_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e4_rho0p05_rank8_basis3407_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e5_rho0p05_rank16_seed17",
+    "method": "qr_svd",
+    "seed": 17,
+    "best_score": 0.6632653061224489,
+    "epochs_completed": 18
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e5_rho0p05_rank16_seed29",
+    "method": "qr_svd",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e5_rho0p05_rank16_seed43",
+    "method": "qr_svd",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e5_rho0p05_rank32_seed17",
+    "method": "qr_svd",
+    "seed": 17,
+    "best_score": 0.6530612244897959,
+    "epochs_completed": 18
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e5_rho0p05_rank32_seed29",
+    "method": "qr_svd",
+    "seed": 29,
+    "best_score": 0.5102040816326531,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e5_rho0p05_rank32_seed43",
+    "method": "qr_svd",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e5_rho0p05_rank4_seed17",
+    "method": "qr_svd",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e5_rho0p05_rank4_seed29",
+    "method": "qr_svd",
+    "seed": 29,
+    "best_score": 0.5612244897959183,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e5_rho0p05_rank4_seed43",
+    "method": "qr_svd",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e5_rho0p05_rank8_seed17",
+    "method": "qr_svd",
+    "seed": 17,
+    "best_score": 0.6632653061224489,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e5_rho0p05_rank8_seed29",
+    "method": "qr_svd",
+    "seed": 29,
+    "best_score": 0.5612244897959183,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage3_rank_rte20_20260928_145523",
+    "path": "records/stage3_rank_rte20_20260928_145523/runs/e5_rho0p05_rank8_seed43",
+    "method": "qr_svd",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p0_basis12345_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p0_basis12345_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p0_basis12345_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p0_basis2026_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 19
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p0_basis2026_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p0_basis2026_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p0_basis3407_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p0_basis3407_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p0_basis3407_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p0p5_basis12345_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p0p5_basis12345_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5408163265306123,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p0p5_basis12345_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5306122448979592,
+    "epochs_completed": 19
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p0p5_basis2026_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6326530612244898,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p0p5_basis2026_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p0p5_basis2026_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p0p5_basis3407_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6326530612244898,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p0p5_basis3407_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5612244897959183,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p0p5_basis3407_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p1_basis12345_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6428571428571429,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p1_basis12345_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5408163265306123,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p1_basis12345_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p1_basis2026_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6224489795918368,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p1_basis2026_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p1_basis2026_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p1_basis3407_seed17",
+    "method": "random_subspace",
+    "seed": 17,
+    "best_score": 0.6326530612244898,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p1_basis3407_seed29",
+    "method": "random_subspace",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e4_spectrum_p1_basis3407_seed43",
+    "method": "random_subspace",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e5_qr_p0_seed17",
+    "method": "qr_svd",
+    "seed": 17,
+    "best_score": 0.6632653061224489,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e5_qr_p0_seed29",
+    "method": "qr_svd",
+    "seed": 29,
+    "best_score": 0.5612244897959183,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e5_qr_p0_seed43",
+    "method": "qr_svd",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e5_qr_p0p5_seed17",
+    "method": "qr_svd",
+    "seed": 17,
+    "best_score": 0.6530612244897959,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e5_qr_p0p5_seed29",
+    "method": "qr_svd",
+    "seed": 29,
+    "best_score": 0.5510204081632653,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e5_qr_p0p5_seed43",
+    "method": "qr_svd",
+    "seed": 43,
+    "best_score": 0.5102040816326531,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e5_qr_p1_seed17",
+    "method": "qr_svd",
+    "seed": 17,
+    "best_score": 0.6530612244897959,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e5_qr_p1_seed29",
+    "method": "qr_svd",
+    "seed": 29,
+    "best_score": 0.5714285714285714,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage45_weighting_rte20_20261008_035610",
+    "path": "records/stage45_weighting_rte20_20261008_035610/runs/e5_qr_p1_seed43",
+    "method": "qr_svd",
+    "seed": 43,
+    "best_score": 0.5,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e2_seed100",
+    "method": "qlora",
+    "seed": 100,
+    "best_score": 0.4780170126266128,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e2_seed13",
+    "method": "qlora",
+    "seed": 13,
+    "best_score": 0.5019330701750789,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e2_seed21",
+    "method": "qlora",
+    "seed": 21,
+    "best_score": 0.5072806068941901,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e2_seed42",
+    "method": "qlora",
+    "seed": 42,
+    "best_score": 0.5076384942390241,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e2_seed87",
+    "method": "qlora",
+    "seed": 87,
+    "best_score": 0.5207564470857148,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e3_seed100",
+    "method": "lora_sam",
+    "seed": 100,
+    "best_score": 0.5050885375584,
+    "epochs_completed": 18
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e3_seed13",
+    "method": "lora_sam",
+    "seed": 13,
+    "best_score": 0.4637046622918281,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e3_seed21",
+    "method": "lora_sam",
+    "seed": 21,
+    "best_score": 0.5027162727680555,
+    "epochs_completed": 19
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e3_seed42",
+    "method": "lora_sam",
+    "seed": 42,
+    "best_score": 0.5264763891845121,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e3_seed87",
+    "method": "lora_sam",
+    "seed": 87,
+    "best_score": 0.5053968650343078,
+    "epochs_completed": 14
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e4_basis12345_seed100",
+    "method": "random_subspace",
+    "seed": 100,
+    "best_score": 0.4975221305697031,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e4_basis12345_seed13",
+    "method": "random_subspace",
+    "seed": 13,
+    "best_score": 0.48837208555836764,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e4_basis12345_seed21",
+    "method": "random_subspace",
+    "seed": 21,
+    "best_score": 0.48363151084768286,
+    "epochs_completed": 19
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e4_basis12345_seed42",
+    "method": "random_subspace",
+    "seed": 42,
+    "best_score": 0.5276996324917579,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e4_basis12345_seed87",
+    "method": "random_subspace",
+    "seed": 87,
+    "best_score": 0.5218569449731576,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e4_basis2026_seed100",
+    "method": "random_subspace",
+    "seed": 100,
+    "best_score": 0.4839924055805226,
+    "epochs_completed": 18
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e4_basis2026_seed13",
+    "method": "random_subspace",
+    "seed": 13,
+    "best_score": 0.5018984306934307,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e4_basis2026_seed21",
+    "method": "random_subspace",
+    "seed": 21,
+    "best_score": 0.500030526422662,
+    "epochs_completed": 19
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e4_basis2026_seed42",
+    "method": "random_subspace",
+    "seed": 42,
+    "best_score": 0.5303353676557755,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e4_basis2026_seed87",
+    "method": "random_subspace",
+    "seed": 87,
+    "best_score": 0.5410039366652665,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e4_basis3407_seed100",
+    "method": "random_subspace",
+    "seed": 100,
+    "best_score": 0.4903279207078663,
+    "epochs_completed": 18
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e4_basis3407_seed13",
+    "method": "random_subspace",
+    "seed": 13,
+    "best_score": 0.5073042789739086,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e4_basis3407_seed21",
+    "method": "random_subspace",
+    "seed": 21,
+    "best_score": 0.49547617383910947,
+    "epochs_completed": 19
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e4_basis3407_seed42",
+    "method": "random_subspace",
+    "seed": 42,
+    "best_score": 0.5382179635494023,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e4_basis3407_seed87",
+    "method": "random_subspace",
+    "seed": 87,
+    "best_score": 0.5155709926752544,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e5_seed100",
+    "method": "qr_svd",
+    "seed": 100,
+    "best_score": 0.5104376431201025,
+    "epochs_completed": 18
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e5_seed13",
+    "method": "qr_svd",
+    "seed": 13,
+    "best_score": 0.4883991757826137,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e5_seed21",
+    "method": "qr_svd",
+    "seed": 21,
+    "best_score": 0.5002120583081916,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e5_seed42",
+    "method": "qr_svd",
+    "seed": 42,
+    "best_score": 0.5195269864806711,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/cola20_e5_seed87",
+    "method": "qr_svd",
+    "seed": 87,
+    "best_score": 0.5192085164065599,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e2_seed100",
+    "method": "qlora",
+    "seed": 100,
+    "best_score": 0.8246450304259635,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e2_seed13",
+    "method": "qlora",
+    "seed": 13,
+    "best_score": 0.8532400765184123,
+    "epochs_completed": 19
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e2_seed21",
+    "method": "qlora",
+    "seed": 21,
+    "best_score": 0.86782029565753,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e2_seed42",
+    "method": "qlora",
+    "seed": 42,
+    "best_score": 0.8716422860884248,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e2_seed87",
+    "method": "qlora",
+    "seed": 87,
+    "best_score": 0.8687632428614671,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e3_seed100",
+    "method": "lora_sam",
+    "seed": 100,
+    "best_score": 0.8359541836536595,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e3_seed13",
+    "method": "lora_sam",
+    "seed": 13,
+    "best_score": 0.8322743731638997,
+    "epochs_completed": 18
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e3_seed21",
+    "method": "lora_sam",
+    "seed": 21,
+    "best_score": 0.8711185839523523,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e3_seed42",
+    "method": "lora_sam",
+    "seed": 42,
+    "best_score": 0.8648310387984981,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e3_seed87",
+    "method": "lora_sam",
+    "seed": 87,
+    "best_score": 0.8711185839523523,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e4_basis12345_seed100",
+    "method": "random_subspace",
+    "seed": 100,
+    "best_score": 0.8494001872105625,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e4_basis12345_seed13",
+    "method": "random_subspace",
+    "seed": 13,
+    "best_score": 0.8374624808325992,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e4_basis12345_seed21",
+    "method": "random_subspace",
+    "seed": 21,
+    "best_score": 0.8667741069030352,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e4_basis12345_seed42",
+    "method": "random_subspace",
+    "seed": 42,
+    "best_score": 0.8601882613510521,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e4_basis12345_seed87",
+    "method": "random_subspace",
+    "seed": 87,
+    "best_score": 0.8731083459024636,
+    "epochs_completed": 18
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e4_basis2026_seed100",
+    "method": "random_subspace",
+    "seed": 100,
+    "best_score": 0.8417898253828895,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e4_basis2026_seed13",
+    "method": "random_subspace",
+    "seed": 13,
+    "best_score": 0.8376804701980295,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e4_basis2026_seed21",
+    "method": "random_subspace",
+    "seed": 21,
+    "best_score": 0.8752760489861473,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e4_basis2026_seed42",
+    "method": "random_subspace",
+    "seed": 42,
+    "best_score": 0.8543792295679333,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e4_basis2026_seed87",
+    "method": "random_subspace",
+    "seed": 87,
+    "best_score": 0.8785743464052287,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e4_basis3407_seed100",
+    "method": "random_subspace",
+    "seed": 100,
+    "best_score": 0.8284313725490196,
+    "epochs_completed": 18
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e4_basis3407_seed13",
+    "method": "random_subspace",
+    "seed": 13,
+    "best_score": 0.836703431372549,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e4_basis3407_seed21",
+    "method": "random_subspace",
+    "seed": 21,
+    "best_score": 0.8642118764604287,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e4_basis3407_seed42",
+    "method": "random_subspace",
+    "seed": 42,
+    "best_score": 0.8535262094787663,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e4_basis3407_seed87",
+    "method": "random_subspace",
+    "seed": 87,
+    "best_score": 0.8751114081996434,
+    "epochs_completed": 18
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e5_seed100",
+    "method": "qr_svd",
+    "seed": 100,
+    "best_score": 0.8426257982734828,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e5_seed13",
+    "method": "qr_svd",
+    "seed": 13,
+    "best_score": 0.855072463768116,
+    "epochs_completed": 14
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e5_seed21",
+    "method": "qr_svd",
+    "seed": 21,
+    "best_score": 0.869055068836045,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e5_seed42",
+    "method": "qr_svd",
+    "seed": 42,
+    "best_score": 0.8584474885844748,
+    "epochs_completed": 18
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/mrpc20_e5_seed87",
+    "method": "qr_svd",
+    "seed": 87,
+    "best_score": 0.8805818414322251,
+    "epochs_completed": 18
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e2_seed100",
+    "method": "qlora",
+    "seed": 100,
+    "best_score": 0.740072202166065,
+    "epochs_completed": 14
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e2_seed13",
+    "method": "qlora",
+    "seed": 13,
+    "best_score": 0.7472924187725631,
+    "epochs_completed": 18
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e2_seed21",
+    "method": "qlora",
+    "seed": 21,
+    "best_score": 0.7364620938628159,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e2_seed42",
+    "method": "qlora",
+    "seed": 42,
+    "best_score": 0.7328519855595668,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e2_seed87",
+    "method": "qlora",
+    "seed": 87,
+    "best_score": 0.7111913357400722,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e3_seed100",
+    "method": "lora_sam",
+    "seed": 100,
+    "best_score": 0.7509025270758123,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e3_seed13",
+    "method": "lora_sam",
+    "seed": 13,
+    "best_score": 0.7328519855595668,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e3_seed21",
+    "method": "lora_sam",
+    "seed": 21,
+    "best_score": 0.7545126353790613,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e3_seed42",
+    "method": "lora_sam",
+    "seed": 42,
+    "best_score": 0.7472924187725631,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e3_seed87",
+    "method": "lora_sam",
+    "seed": 87,
+    "best_score": 0.7328519855595668,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e4_basis12345_seed100",
+    "method": "random_subspace",
+    "seed": 100,
+    "best_score": 0.7653429602888087,
+    "epochs_completed": 14
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e4_basis12345_seed13",
+    "method": "random_subspace",
+    "seed": 13,
+    "best_score": 0.7545126353790613,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e4_basis12345_seed21",
+    "method": "random_subspace",
+    "seed": 21,
+    "best_score": 0.740072202166065,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e4_basis12345_seed42",
+    "method": "random_subspace",
+    "seed": 42,
+    "best_score": 0.7364620938628159,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e4_basis12345_seed87",
+    "method": "random_subspace",
+    "seed": 87,
+    "best_score": 0.7220216606498195,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e4_basis2026_seed100",
+    "method": "random_subspace",
+    "seed": 100,
+    "best_score": 0.7364620938628159,
+    "epochs_completed": 14
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e4_basis2026_seed13",
+    "method": "random_subspace",
+    "seed": 13,
+    "best_score": 0.7472924187725631,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e4_basis2026_seed21",
+    "method": "random_subspace",
+    "seed": 21,
+    "best_score": 0.7472924187725631,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e4_basis2026_seed42",
+    "method": "random_subspace",
+    "seed": 42,
+    "best_score": 0.740072202166065,
+    "epochs_completed": 9
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e4_basis2026_seed87",
+    "method": "random_subspace",
+    "seed": 87,
+    "best_score": 0.6967509025270758,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e4_basis3407_seed100",
+    "method": "random_subspace",
+    "seed": 100,
+    "best_score": 0.7292418772563177,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e4_basis3407_seed13",
+    "method": "random_subspace",
+    "seed": 13,
+    "best_score": 0.7364620938628159,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e4_basis3407_seed21",
+    "method": "random_subspace",
+    "seed": 21,
+    "best_score": 0.7509025270758123,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e4_basis3407_seed42",
+    "method": "random_subspace",
+    "seed": 42,
+    "best_score": 0.7328519855595668,
+    "epochs_completed": 9
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e4_basis3407_seed87",
+    "method": "random_subspace",
+    "seed": 87,
+    "best_score": 0.7472924187725631,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e5_seed100",
+    "method": "qr_svd",
+    "seed": 100,
+    "best_score": 0.7292418772563177,
+    "epochs_completed": 18
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e5_seed13",
+    "method": "qr_svd",
+    "seed": 13,
+    "best_score": 0.7509025270758123,
+    "epochs_completed": 20
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e5_seed21",
+    "method": "qr_svd",
+    "seed": 21,
+    "best_score": 0.7292418772563177,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e5_seed42",
+    "method": "qr_svd",
+    "seed": 42,
+    "best_score": 0.7328519855595668,
+    "epochs_completed": 12
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte100_e5_seed87",
+    "method": "qr_svd",
+    "seed": 87,
+    "best_score": 0.7184115523465704,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e2_seed100",
+    "method": "qlora",
+    "seed": 100,
+    "best_score": 0.5956678700361011,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e2_seed13",
+    "method": "qlora",
+    "seed": 13,
+    "best_score": 0.5595667870036101,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e2_seed21",
+    "method": "qlora",
+    "seed": 21,
+    "best_score": 0.5306859205776173,
+    "epochs_completed": 9
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e2_seed42",
+    "method": "qlora",
+    "seed": 42,
+    "best_score": 0.5631768953068592,
+    "epochs_completed": 14
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e2_seed87",
+    "method": "qlora",
+    "seed": 87,
+    "best_score": 0.6245487364620939,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e3_seed100",
+    "method": "lora_sam",
+    "seed": 100,
+    "best_score": 0.5992779783393501,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e3_seed13",
+    "method": "lora_sam",
+    "seed": 13,
+    "best_score": 0.5776173285198556,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e3_seed21",
+    "method": "lora_sam",
+    "seed": 21,
+    "best_score": 0.5415162454873647,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e3_seed42",
+    "method": "lora_sam",
+    "seed": 42,
+    "best_score": 0.5740072202166066,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e3_seed87",
+    "method": "lora_sam",
+    "seed": 87,
+    "best_score": 0.6209386281588448,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e4_basis12345_seed100",
+    "method": "random_subspace",
+    "seed": 100,
+    "best_score": 0.6064981949458483,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e4_basis12345_seed13",
+    "method": "random_subspace",
+    "seed": 13,
+    "best_score": 0.5631768953068592,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e4_basis12345_seed21",
+    "method": "random_subspace",
+    "seed": 21,
+    "best_score": 0.5487364620938628,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e4_basis12345_seed42",
+    "method": "random_subspace",
+    "seed": 42,
+    "best_score": 0.5667870036101083,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e4_basis12345_seed87",
+    "method": "random_subspace",
+    "seed": 87,
+    "best_score": 0.6209386281588448,
+    "epochs_completed": 15
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e4_basis2026_seed100",
+    "method": "random_subspace",
+    "seed": 100,
+    "best_score": 0.6064981949458483,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e4_basis2026_seed13",
+    "method": "random_subspace",
+    "seed": 13,
+    "best_score": 0.555956678700361,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e4_basis2026_seed21",
+    "method": "random_subspace",
+    "seed": 21,
+    "best_score": 0.5415162454873647,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e4_basis2026_seed42",
+    "method": "random_subspace",
+    "seed": 42,
+    "best_score": 0.5595667870036101,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e4_basis2026_seed87",
+    "method": "random_subspace",
+    "seed": 87,
+    "best_score": 0.6137184115523465,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e4_basis3407_seed100",
+    "method": "random_subspace",
+    "seed": 100,
+    "best_score": 0.6137184115523465,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e4_basis3407_seed13",
+    "method": "random_subspace",
+    "seed": 13,
+    "best_score": 0.5631768953068592,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e4_basis3407_seed21",
+    "method": "random_subspace",
+    "seed": 21,
+    "best_score": 0.5631768953068592,
+    "epochs_completed": 19
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e4_basis3407_seed42",
+    "method": "random_subspace",
+    "seed": 42,
+    "best_score": 0.5740072202166066,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e4_basis3407_seed87",
+    "method": "random_subspace",
+    "seed": 87,
+    "best_score": 0.6209386281588448,
+    "epochs_completed": 17
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e5_seed100",
+    "method": "qr_svd",
+    "seed": 100,
+    "best_score": 0.5740072202166066,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e5_seed13",
+    "method": "qr_svd",
+    "seed": 13,
+    "best_score": 0.555956678700361,
+    "epochs_completed": 11
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e5_seed21",
+    "method": "qr_svd",
+    "seed": 21,
+    "best_score": 0.5595667870036101,
+    "epochs_completed": 19
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e5_seed42",
+    "method": "qr_svd",
+    "seed": 42,
+    "best_score": 0.5703971119133574,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte20_e5_seed87",
+    "method": "qr_svd",
+    "seed": 87,
+    "best_score": 0.628158844765343,
+    "epochs_completed": 14
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e2_seed100",
+    "method": "qlora",
+    "seed": 100,
+    "best_score": 0.5812274368231047,
+    "epochs_completed": 7
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e2_seed13",
+    "method": "qlora",
+    "seed": 13,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e2_seed21",
+    "method": "qlora",
+    "seed": 21,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e2_seed42",
+    "method": "qlora",
+    "seed": 42,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 8
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e2_seed87",
+    "method": "qlora",
+    "seed": 87,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e3_seed100",
+    "method": "lora_sam",
+    "seed": 100,
+    "best_score": 0.5703971119133574,
+    "epochs_completed": 7
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e3_seed13",
+    "method": "lora_sam",
+    "seed": 13,
+    "best_score": 0.5631768953068592,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e3_seed21",
+    "method": "lora_sam",
+    "seed": 21,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e3_seed42",
+    "method": "lora_sam",
+    "seed": 42,
+    "best_score": 0.5342960288808665,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e3_seed87",
+    "method": "lora_sam",
+    "seed": 87,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e4_basis12345_seed100",
+    "method": "random_subspace",
+    "seed": 100,
+    "best_score": 0.5776173285198556,
+    "epochs_completed": 7
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e4_basis12345_seed13",
+    "method": "random_subspace",
+    "seed": 13,
+    "best_score": 0.5595667870036101,
+    "epochs_completed": 16
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e4_basis12345_seed21",
+    "method": "random_subspace",
+    "seed": 21,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e4_basis12345_seed42",
+    "method": "random_subspace",
+    "seed": 42,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 8
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e4_basis12345_seed87",
+    "method": "random_subspace",
+    "seed": 87,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e4_basis2026_seed100",
+    "method": "random_subspace",
+    "seed": 100,
+    "best_score": 0.5740072202166066,
+    "epochs_completed": 7
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e4_basis2026_seed13",
+    "method": "random_subspace",
+    "seed": 13,
+    "best_score": 0.555956678700361,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e4_basis2026_seed21",
+    "method": "random_subspace",
+    "seed": 21,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e4_basis2026_seed42",
+    "method": "random_subspace",
+    "seed": 42,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 8
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e4_basis2026_seed87",
+    "method": "random_subspace",
+    "seed": 87,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e4_basis3407_seed100",
+    "method": "random_subspace",
+    "seed": 100,
+    "best_score": 0.5848375451263538,
+    "epochs_completed": 7
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e4_basis3407_seed13",
+    "method": "random_subspace",
+    "seed": 13,
+    "best_score": 0.5523465703971119,
+    "epochs_completed": 13
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e4_basis3407_seed21",
+    "method": "random_subspace",
+    "seed": 21,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e4_basis3407_seed42",
+    "method": "random_subspace",
+    "seed": 42,
+    "best_score": 0.5342960288808665,
+    "epochs_completed": 10
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e4_basis3407_seed87",
+    "method": "random_subspace",
+    "seed": 87,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e5_seed100",
+    "method": "qr_svd",
+    "seed": 100,
+    "best_score": 0.5740072202166066,
+    "epochs_completed": 7
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e5_seed13",
+    "method": "qr_svd",
+    "seed": 13,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e5_seed21",
+    "method": "qr_svd",
+    "seed": 21,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 6
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e5_seed42",
+    "method": "qr_svd",
+    "seed": 42,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 8
+  },
+  {
+    "stage": "stage67_formal_matrix_20261008_085232",
+    "path": "records/stage67_formal_matrix_20261008_085232/runs/rte5_e5_seed87",
+    "method": "qr_svd",
+    "seed": 87,
+    "best_score": 0.5270758122743683,
+    "epochs_completed": 6
+  }
+]
