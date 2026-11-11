@@ -1,0 +1,74 @@
+{
+  "experiment": {
+    "name": "stage2_roberta_rte_20pct_qr_svd",
+    "method": "qr_svd"
+  },
+  "model": {
+    "name_or_path": "FacebookAI/roberta-base",
+    "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+    "num_labels": 2,
+    "load_in_4bit": true,
+    "quant_type": "nf4",
+    "double_quant": true,
+    "compute_dtype": "float16",
+    "gradient_checkpointing": false
+  },
+  "data": {
+    "dataset_name": "nyu-mll/glue",
+    "dataset_revision": "bcdcba7",
+    "local_dataset_dir": "artifacts/datasets/glue_rte_bcdcba7",
+    "task_name": "rte",
+    "train_fraction": 0.2,
+    "data_seed": 29,
+    "max_length": 256,
+    "num_workers": 2,
+    "indices_dir": "artifacts/data_indices",
+    "validation_source": "inner_train",
+    "inner_validation_fraction": 0.2,
+    "inner_validation_seed": 314159
+  },
+  "lora": {
+    "rank": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "target_modules": [
+      "query",
+      "value"
+    ],
+    "modules_to_save": [
+      "classifier"
+    ]
+  },
+  "sam": {
+    "enabled": true,
+    "rho": 0.1,
+    "subspace_rank": 8,
+    "random_basis_seed": 12345
+  },
+  "qr_svd": {
+    "enabled": true,
+    "cache_dir": "artifacts/cache/qr_svd"
+  },
+  "training": {
+    "output_dir": "outputs/stage2_rho_rte20_20260928_071417/runs/e5_rho0p10_rank8_seed29",
+    "seed": 29,
+    "epochs": 20,
+    "train_batch_size": 16,
+    "eval_batch_size": 64,
+    "gradient_accumulation_steps": 1,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.06,
+    "max_grad_norm": 1.0,
+    "early_stopping_patience": 5,
+    "logging_steps": 10,
+    "dataloader_pin_memory": true
+  },
+  "runtime": {
+    "device": "cuda:0",
+    "fp16": true,
+    "bf16": false,
+    "allow_tf32": false,
+    "deterministic": true
+  }
+}
