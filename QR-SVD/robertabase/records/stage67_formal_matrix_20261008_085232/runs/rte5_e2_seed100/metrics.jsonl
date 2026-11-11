@@ -1,0 +1,12 @@
+{"type": "epoch", "epoch": 1, "global_step": 8, "train_loss": 0.7034498825669289, "validation": {"accuracy": 0.555956678700361, "loss": 0.69249187707901}, "selection_score": 0.555956678700361, "elapsed_seconds": 1.8456692695617676}
+{"type": "train_step", "epoch": 2, "global_step": 10, "loss": 0.702178955078125, "learning_rate": 0.00019867549668874172}
+{"type": "epoch", "epoch": 2, "global_step": 16, "train_loss": 0.6951141357421875, "validation": {"accuracy": 0.5812274368231047, "loss": 0.6921504378318787}, "selection_score": 0.5812274368231047, "elapsed_seconds": 3.5789880752563477}
+{"type": "train_step", "epoch": 3, "global_step": 20, "loss": 0.6988525390625, "learning_rate": 0.00018543046357615895}
+{"type": "epoch", "epoch": 3, "global_step": 24, "train_loss": 0.6996485367417336, "validation": {"accuracy": 0.5270758122743683, "loss": 0.6895453333854675}, "selection_score": 0.5270758122743683, "elapsed_seconds": 5.294386625289917}
+{"type": "train_step", "epoch": 4, "global_step": 30, "loss": 0.67608642578125, "learning_rate": 0.00017218543046357615}
+{"type": "epoch", "epoch": 4, "global_step": 32, "train_loss": 0.6930160522460938, "validation": {"accuracy": 0.5270758122743683, "loss": 0.688974142074585}, "selection_score": 0.5270758122743683, "elapsed_seconds": 6.9998393058776855}
+{"type": "train_step", "epoch": 5, "global_step": 40, "loss": 0.703369140625, "learning_rate": 0.00015894039735099338}
+{"type": "epoch", "epoch": 5, "global_step": 40, "train_loss": 0.6795997619628906, "validation": {"accuracy": 0.48014440433212996, "loss": 0.69419025182724}, "selection_score": 0.48014440433212996, "elapsed_seconds": 8.743834018707275}
+{"type": "epoch", "epoch": 6, "global_step": 48, "train_loss": 0.6830615997314453, "validation": {"accuracy": 0.4729241877256318, "loss": 0.7033228516578675}, "selection_score": 0.4729241877256318, "elapsed_seconds": 10.431580305099487}
+{"type": "train_step", "epoch": 7, "global_step": 50, "loss": 0.6524658203125, "learning_rate": 0.00014569536423841059}
+{"type": "epoch", "epoch": 7, "global_step": 56, "train_loss": 0.6984958648681641, "validation": {"accuracy": 0.5667870036101083, "loss": 0.6874719500541687}, "selection_score": 0.5667870036101083, "elapsed_seconds": 12.160737991333008}

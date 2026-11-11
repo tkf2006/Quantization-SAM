@@ -1,0 +1,80 @@
+{
+  "experiment": {
+    "name": "stage67_formal_qr_svd",
+    "method": "qr_svd"
+  },
+  "model": {
+    "name_or_path": "FacebookAI/roberta-base",
+    "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+    "num_labels": 2,
+    "load_in_4bit": true,
+    "quant_type": "nf4",
+    "double_quant": true,
+    "compute_dtype": "float16",
+    "gradient_checkpointing": false
+  },
+  "data": {
+    "dataset_name": "nyu-mll/glue",
+    "dataset_revision": "bcdcba7",
+    "local_dataset_dir": "artifacts/datasets/glue_rte_bcdcba7",
+    "task_name": "rte",
+    "train_fraction": 0.2,
+    "data_seed": 87,
+    "max_length": 256,
+    "num_workers": 2,
+    "indices_dir": "artifacts/data_indices",
+    "validation_source": "official",
+    "inner_validation_fraction": 0.2,
+    "inner_validation_seed": 314159
+  },
+  "lora": {
+    "rank": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "target_modules": [
+      "query",
+      "value"
+    ],
+    "modules_to_save": [
+      "classifier"
+    ]
+  },
+  "sam": {
+    "enabled": true,
+    "rho": 0.05,
+    "subspace_rank": 8,
+    "random_basis_seed": 12345,
+    "singular_value_exponent": 0.0,
+    "reuse_qr_singular_values": false
+  },
+  "qr_svd": {
+    "enabled": true,
+    "cache_dir": "artifacts/cache/qr_svd",
+    "collect_subspace_comparisons": false
+  },
+  "training": {
+    "output_dir": "outputs/stage67_formal_matrix_20261008_085232/runs/rte20_e5_seed87",
+    "seed": 87,
+    "epochs": 20,
+    "train_batch_size": 16,
+    "eval_batch_size": 64,
+    "gradient_accumulation_steps": 1,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.06,
+    "max_grad_norm": 1.0,
+    "early_stopping_patience": 5,
+    "logging_steps": 10,
+    "dataloader_pin_memory": true,
+    "save_last_adapter": false,
+    "save_optimizer_state": false,
+    "save_tokenizer_with_adapter": false
+  },
+  "runtime": {
+    "device": "cuda:0",
+    "fp16": true,
+    "bf16": false,
+    "allow_tf32": false,
+    "deterministic": true
+  }
+}
